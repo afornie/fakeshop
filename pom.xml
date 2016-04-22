@@ -7,7 +7,14 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>fakeshop Maven Webapp</name>
   <url>http://maven.apache.org</url>
+
   <dependencies>
+  	<dependency>
+		<groupId>javax.servlet</groupId>
+		<artifactId>javax.servlet-api</artifactId>
+		<version>3.1.0</version>
+	</dependency>
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -15,6 +22,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
   <build>
     <finalName>fakeshop</finalName>
     <plugins>

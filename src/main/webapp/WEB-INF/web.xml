@@ -3,5 +3,14 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
-  <display-name>Archetype Created Web Application</display-name>
+ 	<display-name>Fake Shop</display-name>
+
+	<servlet>
+  		<servlet-name>FakeServlet</servlet-name>
+		<servlet-class>fakeshop.servlet.FakeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FakeServlet</servlet-name>
+		<url-pattern>/fake</url-pattern>
+	</servlet-mapping>
 </web-app>
